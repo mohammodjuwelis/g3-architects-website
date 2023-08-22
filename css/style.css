@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none
+}
+
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+
+/* shares styles  */
+.primary-btn{
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding: 1.25rem 1.50rem;
+    background-color: #FF900E;
+    border: transparent;
+    border-radius: .50rem;
+    margin-bottom: 2rem;
+}
+
+
+/* header area styles start  */
+.header-area{
+    padding: 60px 240px;
+    background-color: #FF900E1A;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav > ul{
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+nav > ul li {
+    list-style: none;
+    margin-right: 2rem;
+}
+
+nav > ul > li a{
+    color: #424242;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.banner-content{
+    max-width: 855px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner-title{
+    color: #131313;
+    font-weight: 700;
+    font-size: 6.25rem;
+    margin-bottom: 1.80rem;
+}
+
+.banner-description{
+    color: #727272;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.80rem; 
+    margin-bottom: 1.80rem;
+}
+
+
+.banner img{
+    width: 100%;
+}
+
