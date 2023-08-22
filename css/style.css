@@ -33,6 +33,12 @@ nav{
     justify-content: space-between;
 }
 
+nav h3{
+    color: #131313;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
 nav > ul{
     display: flex;
     margin-bottom: 3rem;
@@ -70,8 +76,41 @@ nav > ul > li a{
     margin-bottom: 1.80rem;
 }
 
-
 .banner img{
     width: 100%;
+}
+
+
+
+
+/* small device responsive */
+@media screen and (max-width:576px) {
+
+    .header-area {
+        padding: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    nav h3{
+        margin-bottom: 1rem;
+    }
+
+    nav > ul{
+        justify-content: center;
+    }
+
+    nav > ul li {
+        margin-right: 1rem;
+    }
+
+    .banner-title {
+        color: #131313;
+        font-size: 2.25rem;
+    }
+    
 }
 
